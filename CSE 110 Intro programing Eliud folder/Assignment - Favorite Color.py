@@ -1,0 +1,5 @@
+print('Welcome Venues Angola')
+print('To provide you with the best experience, we would need to know a little about your wishes')
+name=input('To start, can you Please type your favorite color' )
+print('Your Favorite color is')
+print(name)

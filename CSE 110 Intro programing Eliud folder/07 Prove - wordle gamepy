@@ -1,0 +1,50 @@
+#07 Prove: Assignment Milestone
+#Author: josé Quemba
+
+print ('Welcome to the word Guessing game')
+print ()
+
+Secret_word = 'ELIUD'
+user_guess = 'Not yet'
+guess_number = 0
+while user_guess.upper () != Secret_word:
+    user_guess = input ('What is your guess? ')
+    guess_number = guess_number + 1
+    if user_guess.upper () != Secret_word:
+        print ('Your guess was not correct.')
+    else:
+        print('Congratulations! You guessed it!')
+        output = f'It took you {guess_number} guesses.'
+        print (output)
+
+# Final Requirements - Using hint 1,2,3 and 4       
+print ()
+import random
+secret_word = random.choice(['Eliud', 'João', 'Catarina', 'Francisco', 'Jose', 'Domanique'])
+user_guess = 'SSS'
+# first hint
+hint_number = len(secret_word)
+print ('Your hint is:', end="")
+for number in range(hint_number):
+    if number != -1:
+        print ("_", end="")
+print ()
+number_atempts = 0
+while user_guess.upper () != secret_word.upper ():
+    user_guess = input ('What is your guess? ')
+    if len(secret_word) != len(user_guess):
+        print ('Sorry, the guess must have the same number of letters as the secret word.')
+    else:
+        number_atempts +=1
+        print ('Your hint is:', end="")
+        for i,letter in enumerate (user_guess):
+            if letter.lower () == secret_word.lower ()[i]:
+                print (letter.upper (), end="")
+            elif letter.lower () in secret_word.lower ():
+                print(letter.lower (), end="")
+            else:
+                print ('_', end="")
+    print ()
+else:
+    print ('Congratulations! You guessed it!')
+    print (f'It took you {number_atempts} guesses.')
