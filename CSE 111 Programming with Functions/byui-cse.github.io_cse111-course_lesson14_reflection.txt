@@ -1,0 +1,39 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+  During this semester, when I came to learn about how to organize my programs 
+into functions, with a main function followed by other functions, it helped me 
+to see how simple and clear a program can be written in comparison with what 
+I learned in CSE 110 where all the programs I wrote were like a text, and 
+sometimes it was very long and I kinda get lost when going through, but the 
+way that functions are organized, even though it might be long, the way of 
+reading it is much simpler and systematic, looking first at the main function 
+and then the other functions that auxiliary to the main function.
+
+2. In your judgment, what is the value of test functions?
+  When I was in CSE 110 class, I always wondered what professional programmers
+use to check a function to make sure it is providing the real result, for example 
+when I write a program that uses math, I would use an external calculator to make 
+sure it was giving me the right result because in Python math has to be well 
+defined or it might give you a result that you don't expect, and I thought to my 
+self, do they all have external math calculators to test their functions? or when
+it comes to a function that produces other results, what do they use? So after 
+learning about test functions, it made more sense to me because those test 
+function, they test a function without the need to be worried about what am I 
+missing because it test the function to real results already known.
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+  when troubleshooting and fixing a program, I always look at the message it shows
+and its meaning, then if I understood what is happening, I just go and fix it, and 
+if not, I use the Python troubleshooting tool to target where the problem is and 
+solve it, and if it continues to not work, I just start to look for tutorials in
+Youtube on how to do the task I am looking for differently, I believe that 
+one thing that I can improve is that instead of using test functions at the end 
+of my programs, I could use them after creating each function and maybe learning 
+more how to test different functions.
+
+

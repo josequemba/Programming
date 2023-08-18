@@ -1,0 +1,94 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+    the title for my program, is going to be "BEP calculater", 
+    that stands for Break even point calculater.
+
+2. What real-world problem will your program address or help to solve?
+
+    Knowing your break-even point is essential to running a business. 
+    Where you can check to see if you'll have enough demand to cover 
+    your costs and hopefully make a profit. The program will allow 
+    the user to enter their businessdata and have the program do every
+    calculation for the user to have a persize information about the 
+    break even point to help him better make some decisions.
+
+3. What will you learn from developing this program?
+
+    By developing this program I will use and learn how to use tkinter,
+    how to graph and frame windows to shape my break-even point calculater.
+
+4. What Python modules will your program use?
+    
+    Doing so I will use some modules just as csv, pytest
+    and tkinter 
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. Will you separate your Python program into functions that each
+perform a single task?
+
+    Yes, I will separate my program into functions just as functions to add 
+    items into a list, to remove items from a list, to print a list, to 
+    calculate the break even point and to calculate the net profit.
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. Will you write test functions to test at least two of your program
+functions?
+
+    Yes, I will write test functions to make sure that my program will provide
+    acurate results to the user so that there are no errs. and this I will use 
+    in the functions to calculate net profit and break even point.
+
+
+
+Since my program is about break even point I serched on the internet about how
+to calculate the break even point, revenue definations, variable costs, fixed costs.
+wrote in a peace of paper how this program is going to procceed.
+
+Also read about the tkinter module by reading and studying in the page
+https://docs.python.org/3/library/tk.html and 
+https://www.tutorialspoint.com/python/python_gui_programming.htm , also 
+watched the youtube video on tkinter https://www.youtube.com/watch?v=hLQj47YOwOE.
+I also practiced using GUI-tkinter in VS code And coded the the welcoming page of my 
+program 
+
+
+
+1 - A list of the function names in your program.
+    During the coding of my program, this is the list of functions I created: main, displays, buttom_start,
+buttom_1, add_b1, add_b2, buttom_2, buttom_3, buttom_4, buttom_5, total_in_list, box_entry_clear, action_remove_fixed, 
+action_remove_variable, calcule_BEP, break_even_point, add_price and add_quantity.
+
+2 - A list of the test function names in your test code.
+    I was able to right a pytest code to test the functions total_in_list and break_even_point.
+
+3 - A list of the documentation that you read, the videos that you watched, and the coding experiments that you tried.
+    I went to https://www.tutorialspoint.com/python/python_gui_programming.htm and read stuff about widgets like text, Frame, 
+    place and pack. In addition, I checked Some of my personal notes I took from classes to remmeber things.
+
+4 - A description or list of the work that you finished on your program.
+    To complety my program, added an options for the user to remove any item they want to remove, I added
+    another options to allow them to put the price of their product and the quantity they produced and a final 
+    option called BEP where they can visualize their break even point.
